@@ -1,7 +1,3 @@
 function skillsMember() {
-  return {
-    restrict: 'E',
-    templateUrl: 'templates/member.html'
-  };
-}    
-  
+    console.log('I can play guitar')
+}
