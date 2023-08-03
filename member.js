@@ -1,3 +1,9 @@
 function skillsMember() {
-    console.log('I can play guitar')
+  return {
+    restrict: 'E',
+    templateUrl: 'app/components/member/member.html',
+    controller: 'MemberController',
+    controllerAs: 'vm',
+    bindToController: true
+  };
 }
